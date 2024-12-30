@@ -1,0 +1,67 @@
+
+.my-gap {
+    margin-top: 20px;
+  }
+  .restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .restaurant-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+    .restaurant-image {
+      height: 200px;
+      overflow: hidden;
+    }
+  
+    .restaurant-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .restaurant-details {
+      padding: 20px;
+    }
+  
+    .restaurant-name {
+      font-size: 20px;
+      margin: 0;
+    }
+  
+    .restaurant-rating {
+      margin: 10px 0;
+    }
+  
+    .rating {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+  
+    .star {
+      color: orange;
+    }
+  
+    .order-btn {
+      background-color: #00a7e1;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+  
+    .order-btn:hover {
+      background-color: #0093c6;
+    }
+  
+  
